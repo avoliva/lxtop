@@ -1,0 +1,40 @@
+█▒░ TIMERS & SERVICES ░▒█  > what runs on a schedule and what failed                               Fri 15 Jan  08:00:00
+ ● Nothing failed; every timer's last run ended well.
+
+ TIMER                          last  ended                    next
+ no timers read
+
+ FAILED UNITS
+ none on the host or in your own services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Tab network   ? help   t look   r effects: off   o settings   q quit      host: CPU 25% · memory 22G of 62G · GPU 40%

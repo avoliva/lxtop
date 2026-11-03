@@ -1,0 +1,40 @@
+ NETWORK   the internet link, its hiccups, and who uses it                                         Fri 15 Jan  08:00:00
+ ● The connection looks healthy: router 1 ms, internet 15 ms, the service 21 ms, no lost pings in the last 24s.
+
+ ╭─ DOWNLOAD ─────╮ ╭─ UPLOAD ───────╮ ╭─ INTERNET PING ╮ ╭─ LOST PINGS ───╮ ╭─ SPEED TEST ───╮ ╭─ VISITORS ─────╮
+ │  ▀█      █▀█   │ │  ▀▀█ █▀█ █▀█   │ │  ▀█  █▀▀       │ │  █▀█           │ │                │ │  █▀█           │
+ │   █      █ █   │ │  █▀▀ █ █ █ █   │ │   █  ▀▀█       │ │  █ █           │ │                │ │  █ █           │
+ │  ▀▀▀  ▀  ▀▀▀ Mbit│s ▀▀▀ ▀▀▀ ▀▀▀ kbit│s ▀▀▀ ▀▀▀ ms    │ │  ▀▀▀ %         │ │  not yet       │ │  ▀▀▀ a minute  │
+ │  peak 1.0 Mbi… │ │  peak 200 kbi… │ │  router 1.2 m… │ │  0 of 12 to 1… │ │  a 10 MB down… │ │  no tunnel nu… │
+ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯
+
+ INTERNET LINK  ? (link)   ↓ 0 bit/s  ↑ 0 bit/s
+  1.0 Mbit/s ┤                                                                                                   ⠉⠉⠉⠉⠉⠉
+             │
+             │
+  500 kbit/s ┤
+             │                                                                                                   ⠤⠤⠤⠤⠤⠤
+           0 ┤
+             └─────────────────────────────────────────────────────────────────────────────────────────────────────────
+              24s ago    ↓ download   ↑ upload   × lost check   • slow check                                        now
+
+ CHECKS  router and internet every 2 s, the rest every 10-20 s
+ Your router                        1.2 ms    usually 1 · worst 1  lost 0 of 12
+                                                                                                                 ⠒⠒⠒⠒⠒⠒
+ The internet                       14.0 ms   usually 15 · worst 16  lost 0 of 12
+                                                                                                                 ⠒⠒⠒⠒⠒⠒
+ The service                        21.0 ms   usually 21 · worst 21  lost 0 of 12
+                                                                                                                 ⠤⠤⠤⠤⠤⠤
+
+ BY MACHINE  in and out together
+ ██ app               ↓ 32.0 kbit/s  ↑ 0 bit/s
+ ██ demo              ↓ 800 bit/s    ↑ 0 bit/s
+ VISITORS  through Cloudflare tunnels
+ No tunnel reports visitors.
+
+
+ SPEED TESTS  10 MB every 30 min
+ the first runs within 30 min of the collector starting
+
+
+ Tab all machines   1 network  2 machines  3 memory  4 services   ? help   t look   o settings   q quit

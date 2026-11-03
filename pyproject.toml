@@ -1,0 +1,40 @@
+[project]
+name = "lxtop"
+version = "0.1.0"
+description = "A live terminal dashboard for an LXD host: instances, containers, memory, network and services"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+lxtop = "lxtop.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.9,<0.14"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6", "mypy>=1.11"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers --strict-config"
+filterwarnings = ["error"]
+xfail_strict = true
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM", "RUF", "PTH"]
+
+[tool.ruff.lint.per-file-ignores]
+# Shipped into guests as `python3 -c`: plain os calls and typing.Dict keep it 3.8-friendly.
+"src/lxtop/collector/probe.py" = ["PTH", "UP035", "UP006"]
+
+[tool.mypy]
+strict = true
+files = ["src", "tests"]
+python_version = "3.12"

@@ -1,0 +1,30 @@
+ lxtop  host  up 3d 1h   load 0.50 0.40 0.30   Fri 15 Jan 08:00:00
+ CPU  ███▊░░░░░░░░░░░  25.0%  16 cores  0 MHz     GPU  ██▊░░░░  40%  vram ▉░░░░░░ 2.0/16G  55°C 0W
+      ░███████░███████                            TEMP cpu 61°C  nvme0n1 r 1000B/s w 2.0K/s  / 25% o
+ MEM  █████▎░░░░░░░░░ 22.0G/62.0G  swap 0B/0B     NET
+────────────────────────────────────────────────────────────────────────────────────────────────────
+ NAME  (sort: name)                    KIND   STATE        CPU         MEMORY  NET in/out
+   host                                host   up         25.0%      22.0G/62G  ↓122.1K ↑24.4K
+ ▸ app (1)                             vm     Running     5.0%       2.0G/12G  ↓3.9K ↑0B
+   demo                                vm     Running     0.8%       2.0G/12G  ↓100B ↑0B
+   idle                                vm     Stopped
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ↑↓ select  →← open/fold  s sort  e/c all  d detail  Tab memory & jobs  ? help   t look   o setting

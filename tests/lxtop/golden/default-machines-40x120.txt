@@ -1,0 +1,40 @@
+ ALL MACHINES   host: up 3d 1h, load 0.50 0.40 0.30                                                Fri 15 Jan  08:00:00
+ 2 LXD instances running (1 stopped), 1 Docker containers inside them and on the host.
+
+ ╭─ CPU ──────────╮ ╭─ MEMORY ───────╮ ╭─ GPU ──────────╮ ╭─ HOTTEST ──────╮ ╭─ ROOT DISK ────╮ ╭─ INTERNET ─────╮
+ │  █ █     █▀█   │ │  ▀▀█ ▀▀█     █▀█ │  █ █ █▀█       │ │  █▀▀ ▀█        │ │  ▀█  █▀█ █▀█   │ │  ▀█      █▀█   │
+ │  ▀▀█     █ █   │ │  █▀▀ █▀▀     █ █ │  ▀▀█ █ █    █▌░░ │  █▀█  █        │ │█▌ █  █ █ █ █   │ │░░ █      █ █   │
+ │    ▀  ▀  ▀▀25%ore│  ▀▀▀ ▀▀▀  ▀35%▀▀ │B   ▀ ▀▀▀ % 40% │ │  ▀▀▀ ▀▀▀ °C64%u│ │  ▀▀▀ ▀▀▀ ▀▀25%B│ │  ▀▀▀  ▀  ▀▀▀ Mbit/s
+ │  ░███████░███  │ │  of 62 GB, sw… │ │  vram 2.0/16G… │ │  cpu 61        │ │  of 400G · r … │ │  ↑ 200 kbit/s… │
+ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯ ╰────────────────╯
+
+
+ NAME  (sor… KIND   STATE        CPU         MEMORY  NET in/out…│ host  host  ·  up
+   host      host   up         25.0%      22.0G/62G  ↓122.1K ↑2…│uptime     3d 1h           cores      16
+ ▸ app (1)   vm     Running     5.0%       2.0G/12G  ↓3.9K ↑0B …│docker     0 running, 0 i… /          100.0G/400.0G …
+   demo      vm     Running     0.8%       2.0G/12G  ↓100B ↑0B …│gpu          fan 0%        power      0W of 0W
+   idle      vm     Stopped                                     │
+                                                                │CPU  25.0% of 16 cores              peak 25%  last 24s
+                                                                │  100%
+                                                                │
+                                                                │
+                                                                │                                          ▂▂▂▂▂▂▂▂▂▂▂▂
+                                                                │     0                                    ████████████
+                                                                │MEM  22.0G of 62.0G               peak 22.0G  last 24s
+                                                                │   62G
+                                                                │
+                                                                │                                          ▃▃▃▃▃▃▃▃▃▃▃▃
+                                                                │     0                                    ████████████
+                                                                │IN   122.1K/s                    peak 122.1K  last 24s
+                                                                │  200K                                    ▂▂▂▂▂▂▂▂▂▂▂▂
+                                                                │     0                                    ████████████
+                                                                │OUT  24.4K/s                      peak 24.4K  last 24s
+                                                                │  200K
+                                                                │     0                                    ▂▂▂▂▂▂▂▂▂▂▂▂
+                                                                │no process list
+                                                                │
+                                                                │
+                                                                │
+                                                                │
+                                                                │
+ ↑↓ select  →← open/fold  s sort  e/c all  d detail  Tab memory & jobs  ? help   t look   o settings   q quit
